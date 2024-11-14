@@ -1,0 +1,115 @@
+/* Đặt font-family và font-size cho body của trang checkout */
+.checkout-section {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  padding: 8px;
+}
+
+/* Đặt box-sizing cho tất cả các phần tử */
+* {
+  box-sizing: border-box;
+}
+
+/* Định dạng cho hàng (row) trong phần checkout */
+.checkout-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+  /* Giảm khoảng cách giữa các cột */
+}
+
+/* Định dạng các cột trong phần checkout */
+.checkout-col-25,
+.checkout-col-50 {
+  padding: 0 8px;
+  /* Giảm padding của các cột */
+}
+
+.checkout-col-25 {
+  flex: 25%;
+}
+
+.checkout-col-50 {
+  flex: 60%;
+  /* Tăng kích thước cột từ 50% lên 60% */
+}
+
+/* Định dạng cho container trong phần checkout */
+.checkout-inner-container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin: 0 auto;
+  /* Căn giữa container và tăng chiều rộng nếu cần */
+  max-width: 800px;
+  /* Điều chỉnh chiều rộng tối đa của container */
+}
+
+/* Định dạng cho input text trong phần checkout */
+.checkout-input {
+  width: calc(100% - 24px);
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Định dạng cho label trong phần checkout */
+.checkout-label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Định dạng cho icon container trong phần checkout */
+.checkout-icon-container {
+  margin-bottom: 13px;
+  padding: 7px 0;
+  font-size: 30px;
+}
+
+/* Định dạng cho nút (button) trong phần checkout */
+.checkout-btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.checkout-btn:hover {
+  background-color: #067e24;
+}
+
+/* Định dạng cho liên kết (link) trong phần checkout */
+.checkout-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Định dạng cho đường kẻ (hr) trong phần checkout */
+.checkout-hr {
+  border: 1px solid lightgrey;
+}
+
+/* Định dạng cho giá (price) trong phần checkout */
+.checkout-price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout cho checkout - khi màn hình nhỏ hơn 800px */
+@media (max-width: 800px) {
+  .checkout-row {
+    flex-direction: column-reverse;
+  }
+
+  .checkout-col-25,
+  .checkout-col-50 {
+    margin-bottom: 20px;
+  }
+}

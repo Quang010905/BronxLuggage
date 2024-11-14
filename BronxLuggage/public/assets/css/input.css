@@ -1,0 +1,39 @@
+/* Điều chỉnh kiểu cho ô input */
+.input-group .form-control {
+    border-radius: 0.25rem; /* Bo tròn các góc của ô input */
+    border: 1px solid #ced4da; /* Đặt màu viền cho ô input */
+    padding: 0.375rem 0.75rem; /* Điều chỉnh khoảng cách bên trong ô input */
+    font-size: 0.875rem; /* Đặt kích thước chữ */
+    transition: all 0.2s ease-in-out; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.input-group .form-control:focus {
+    border-color: #80bdff; /* Màu viền khi ô input được chọn */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Hiệu ứng bóng khi ô input được chọn */
+}
+
+/* Điều chỉnh kiểu cho nút tìm kiếm */
+.input-group .input-group-btn .btn {
+    border-radius: 0; /* Đặt các góc của nút tìm kiếm bằng 0 để nối liền với ô input */
+    border: 1px solid #ced4da; /* Đặt màu viền cho nút tìm kiếm */
+    border-left: 0; /* Xóa viền bên trái của nút để nối liền với ô input */
+    background-color: #007bff; /* Màu nền của nút tìm kiếm */
+    color: #ffffff; /* Màu chữ của nút tìm kiếm */
+    font-size: 0.875rem; /* Đặt kích thước chữ */
+    padding: 0.375rem 0.75rem; /* Điều chỉnh khoảng cách bên trong nút tìm kiếm */
+    transition: background-color 0.2s ease-in-out; /* Thêm hiệu ứng chuyển tiếp */
+}
+
+.input-group .input-group-btn .btn:hover {
+    background-color: #0056b3; /* Màu nền của nút tìm kiếm khi di chuột qua */
+    border-color: #0056b3; /* Màu viền của nút tìm kiếm khi di chuột qua */
+}
+
+.input-group {
+    display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử bên trong */
+    width: 100%; /* Đặt chiều rộng của nhóm input */
+}
+
+.input-group .input-group-btn {
+    display: flex; /* Sử dụng Flexbox để căn chỉnh nút tìm kiếm */
+}

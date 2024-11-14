@@ -1,0 +1,289 @@
+/*
+Custom Css
+*/
+/* General Styles for the Tab Navigation */
+.nav-tabs .nav-link {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f8f9fa;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/* Tab Content Styles */
+.tab-content {
+    border: 1px solid #dee2e6;
+    border-top: none;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.tab-pane p {
+    line-height: 1.6;
+}
+
+/* Review Section Styling */
+ul.list-unstyled {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+
+ul.list-unstyled li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+ul.list-unstyled li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ul.list-unstyled li a:hover {
+    text-decoration: none;
+}
+
+/* Form Styling */
+.form-group {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    resize:none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.site-btn:hover {
+    background-color: #066dfe;
+}
+
+/*css thoi gian hien tại*/
+.current-time {
+    font-size: 18px;
+    
+}
+
+/* Tùy chỉnh màu sắc và kiểu chữ nếu cần */
+a:hover, a:focus {
+    color: inherit; /* Giữ màu sắc khi di chuột qua liên kết */
+    text-decoration: none; /* Có thể thêm gạch chân khi hover nếu bạn muốn */
+}
+
+.style_comment{
+    border: 1px solid#ddd;
+    border-radius: 10px;
+    background:#F0F0EC;
+}
+/* buttons comment */
+
+.btn-default {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 12px 30px;
+	color: #ffffff;
+	background: #e7ab3c;
+	text-transform: uppercase;
+}
+
+.site-btn {
+	color: #ffffff;
+	background: #e7ab3c;
+	border: 1px solid #e7ab3c;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 13px 45px 11px;
+	cursor: pointer;
+}
+
+/*comment css
+/* styles.css */
+
+.comment-form {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-list ul li {
+    margin-bottom: 10px;
+}
+
+.com-title {
+    font-weight: bold;
+}
+
+.com-details {
+    margin-top: 5px;
+    padding-left: 15px;
+    /* border-left: 2px solid #ccc; */
+}
+
+.comment-list span {
+    font-size: 14px;
+    color: #666;
+}
+
+.no-comments {
+    font-style: italic;
+    color: #999;
+}
+
+/* styles.css */
+
+.comment-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+/* styles.css */
+
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pagination a:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/*cmt list*/
+
+
+.comment-list-section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:#FAF9F8;
+}
+
+.comment-form {
+    margin-bottom: 20px;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.com-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.com-details {
+    margin-top: 5px;
+}
+
+.no-comments {
+    font-style: italic;
+    color: #999;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pagination a:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination .active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
